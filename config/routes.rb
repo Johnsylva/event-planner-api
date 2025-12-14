@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/events" => "events#index"
+  get "/events/:id" => "events#show"
 end
